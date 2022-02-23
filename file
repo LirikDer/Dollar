@@ -1,0 +1,31 @@
+from time import *
+from os import *
+from random import *
+
+a = 76
+
+sleep(2)
+for s in range(3):
+    print('Курс доллара\n', 'Загрузка', '.' * (s + 1), sep = '')
+    sleep(0.5)
+    system('cls||clear')
+for _ in range(20):
+        print('Курс доллара\n', a, 'RUB', sep = '')
+        a += (random() * 0.2)
+        sleep(0.02)
+        system('cls||clear')
+for _ in range(15):
+        print('Курс доллара\n', a, 'RUB', sep = '')
+        a += (random() * 2)
+        sleep(0.02)
+        system('cls||clear')
+for _ in range(40):
+        print('Курс доллара\n', a, 'RUB', sep = '')
+        a += (random() * 30)
+        sleep(0.02)
+        system('cls||clear')
+while True:
+        print('Курс доллара\n', a, 'RUB', sep = '')
+        a += (random() * 400)
+        sleep(0.02)
+        system('cls||clear')
